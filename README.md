@@ -51,18 +51,14 @@ Your project will now have a new directory at `src/components/MyNewComponent`. T
 
 ```jsx
 // `MyNewComponent/index.js`
-export { default } from './MyNewComponent';
+export * from './MyNewComponent';
 ```
 
 ```jsx
 // `MyNewComponent/MyNewComponent.js`
-import React from 'react';
-
-function MyNewComponent() {
+export function MyNewComponent() {
   return <div></div>;
 }
-
-export default MyNewComponent;
 ```
 
 These files will be formatted according to your Prettier configuration.
