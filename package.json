@@ -1,5 +1,5 @@
 {
-  "name": "new-component",
+  "name": "@aureliencabirol/new-component",
   "version": "6.0.0",
   "description": "CLI for creating new React components",
   "homepage": "https://github.com/AurelienWebnation/new-component",
