@@ -1,6 +1,6 @@
 {
   "name": "@aureliencabirol/new-component",
-  "version": "6.0.1",
+  "version": "6.0.2",
   "description": "CLI for creating new React components",
   "homepage": "https://github.com/AurelienWebnation/new-component",
   "repository": {
@@ -11,9 +11,6 @@
     "url": "https://github.com/AurelienWebnation/new-component/issues"
   },
   "main": "src/index.js",
-  "scripts": {
-    "build": "esbuild src/index.js --minify --bundle --platform=node --outfile=dist/index.js"
-  },
   "keywords": [
     "react",
     "reactjs",
@@ -30,9 +27,5 @@
     "chalk": "4",
     "commander": "10",
     "prettier": "2.8.4"
-  },
-  "devDependencies": {
-    "esbuild": "^0.20.2"
-  },
-  "files": ["dist"]
+  }
 }
